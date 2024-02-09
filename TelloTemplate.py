@@ -64,6 +64,17 @@ try:
         sendmsg('up 65', 10)
         sendmsg('forward 500', 10)
 
+        #Square - Pilot = Logan Talor - CoPilot = Ethan Mingerink
+        for i in range(4):
+            sendmsg('forward 50', 3)
+            sendmsg('cw 90', 3)
+
+
+        #Triangle - Pilot = Ethan Mingerink - CoPilot = Logan Talor
+
+
+
+        # Circle - pilot = Logan Talor - CoPilot = Ethan Mingerink
 
         sendmsg('land')
 
