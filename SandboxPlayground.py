@@ -78,6 +78,9 @@ try:
 
         # Circle - pilot = Logan Talor - CoPilot = Ethan Mingerink
 
+        sendmsg('curve 100 0 100 100 0 0 50')
+        sendmsg('curve 100 0 100 100 0 0 50')
+
         sendmsg('land')
 
         print('\nGreat Flight!!!')
