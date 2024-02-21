@@ -63,7 +63,8 @@ try:
 
         sendmsg('Battery?', 6)
         sendmsg('up 40', 6)
-        sendmsg('forward 200', 6)
+        sendmsg('forward 225', 6)
+        sendmsg('forward 10', 6)
 
         #Secound checkpoint
 
@@ -71,7 +72,10 @@ try:
         sendmsg('up 10', 6)
         sendmsg('forward 200', 6)
 
+        #Curve
 
+
+        sendmsg('curve 100 0 100 100 0 0 50')
 
         sendmsg('land')
 
