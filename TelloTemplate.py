@@ -67,9 +67,9 @@ try:
 
         #Secound checkpoint
 
-        #sendmsg('battery?', 6)
-        #sendmsg('up 10', 6)
-        #sendmsg('forward 200', 6)
+        sendmsg('battery?', 6)
+        sendmsg('up 10', 6)
+        sendmsg('forward 200', 6)
 
 
 
